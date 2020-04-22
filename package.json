@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-starter-bitwise",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "version": "0.0.1",
+  "author": "Eduardo Victor <eduvictornobrega@gmail.com>",
   "dependencies": {
     "gatsby": "^2.20.25",
     "gatsby-image": "^2.3.4",
@@ -16,6 +16,7 @@
     "gatsby-plugin-typescript": "^2.3.3",
     "gatsby-source-filesystem": "^2.2.4",
     "gatsby-transformer-sharp": "^2.4.6",
+    "git-commit-msg-linter": "^2.4.2",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -37,8 +38,10 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.1",
+    "husky": "^4.2.5",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^25.4.0",
+    "lint-staged": "^10.1.7",
     "prettier": "2.0.4",
     "react-test-renderer": "^16.13.1",
     "typescript": "^3.8.3"
@@ -58,9 +61,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/bitwise-technology/gatsby-starter-bitwise"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/bitwise-technology/gatsby-starter-bitwise/issues"
   }
 }
