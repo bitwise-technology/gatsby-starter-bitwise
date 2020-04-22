@@ -1,0 +1,4 @@
+{
+  ".ts": ["eslint 'src/**/*'", "yarn test:staged"],
+  ".tsx": ["eslint 'src/**/*'", "yarn test:staged"]
+}
